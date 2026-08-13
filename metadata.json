@@ -1,0 +1,6 @@
+{
+  "name": "HORaiser",
+  "description": "Personal Operating System — Local-first, rule-based productivity, focus, state tracking, and revenue engine",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

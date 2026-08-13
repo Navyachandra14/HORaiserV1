@@ -1,0 +1,44 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crisp White Base Tile -->
+  <rect width="512" height="512" rx="104" fill="#FFFFFF"/>
+  <rect x="8" y="8" width="496" height="496" rx="96" stroke="url(#borderGrad)" stroke-width="10" fill="none"/>
+
+  <!-- Top Golden Arch -->
+  <path d="M 120 200 A 136 136 0 0 1 392 200" stroke="url(#goldGrad)" stroke-width="16" stroke-linecap="round" fill="none"/>
+
+  <!-- Golden 4-Point Star -->
+  <path d="M 256 60 L 268 96 L 304 108 L 268 120 L 256 156 L 244 120 L 208 108 L 244 96 Z" fill="url(#goldGrad)"/>
+
+  <!-- Left Serif 'H' Pillar in Deep Dark Navy -->
+  <path d="M 136 150 C 136 150, 170 155, 180 175 L 180 330 C 170 350, 136 355, 136 355 H 230 C 230 355, 196 350, 186 330 L 186 175 C 196 155, 230 150, 230 150 Z" fill="#0B132B"/>
+
+  <!-- Right Serif 'H' Pillar in Deep Dark Navy -->
+  <path d="M 282 150 C 282 150, 316 155, 326 175 L 326 330 C 316 350, 282 355, 282 355 H 376 C 376 355, 342 350, 332 330 L 332 175 C 342 155, 376 150, 376 150 Z" fill="#0B132B"/>
+
+  <!-- Dark Navy Shadow Swoosh under Winding Road -->
+  <path d="M 155 355 C 170 295, 220 270, 248 245 C 282 220, 315 195, 298 160 C 265 185, 222 220, 188 255 C 162 290, 148 325, 155 355 Z" fill="#070A14" opacity="0.85"/>
+
+  <!-- Winding Golden Path Sweeping Through H -->
+  <path d="M 162 355 C 180 290, 230 265, 256 240 C 290 215, 325 190, 300 160 C 275 180, 240 210, 205 245 C 180 280, 155 320, 162 355 Z" fill="url(#goldPathGrad)"/>
+
+  <!-- Definitions for Gold Gradients -->
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#AA7C11"/>
+    </linearGradient>
+
+    <linearGradient id="goldPathGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9A721D"/>
+      <stop offset="50%" stop-color="#F3E5AB"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+  </defs>
+</svg>
